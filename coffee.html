@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>GRID COFFEE WITH MEDIA QUERIES</title>
+
+          <style>
+                    h3 {
+                              font-size: 22px;
+                    }
+
+                    .parent {
+                              display: grid;
+                              height: 550px;
+                              width: 95%;
+                              /* border: 2px solid red; */
+                              grid-template-columns: repeat(3, 1fr);
+                              margin: auto;
+                              gap: 20px;
+                              /* background-color: aqua; */
+                              margin-top: 20px;
+                              padding: 25px;
+
+
+                    }
+
+                    .parent>div {
+                              /* border: 1px solid green; */
+                              gap: 10px;
+                              padding-right: 50px;
+                              padding-left: 25px;
+                              box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+                    }
+
+                    .parent>div>p {
+                              color: lightgray;
+                              font-size: 20px;
+
+                    }
+
+                    .price {
+
+                              /* border: 1px red solid; */
+                              margin-top: -50px;
+                              text-align: end;
+                              color: goldenrod;
+
+
+                    }
+
+                    .price>h4 {
+                              font-size: 20px;
+                    }
+
+
+
+                    @media all and (min-width:400px) and (max-width:1000px) {
+                              .parent {
+                                        grid-template-columns: repeat(2, auto);
+                                        /* background-color: aqua; */
+                              }
+                    }
+
+                    @media all and (max-width:399px) {
+                              .parent {
+                                        grid-template-columns: repeat(1, auto);
+                                        /* background-color: aqua; */
+                              }
+                    }
+          </style>
+</head>
+
+<body>
+          <div class="parent">
+                    <div>
+                              <h3>
+                                        copuusion
+                              </h3>
+                              <div class="price">
+                                        <h4>$ 49</h4>
+                              </div>
+                              <p>usege of the internet is becoming more <br> common due to rapid advance.</p>
+                    </div>
+
+                    <div>
+
+                              <h3>Americano
+
+                              </h3>
+                              <div class="price">
+                                        <h4>$ 49</h4>
+                              </div>
+                              <p>usege of the internet is becoming more <br> common due to rapid advance.</p>
+                    </div>
+
+                    <div>
+                              <h3>Espresso</h3>
+                              <div class="price">
+                                        <h4>$ 49</h4>
+                              </div>
+                              <p>usege of the internet is becoming more <br> common due to rapid advance.</p>
+                    </div>
+
+                    <div>
+                              <h3>Macchiato</h3>
+                              <div class="price">
+                                        <h4>$ 49</h4>
+                              </div>
+                              <p>usege of the internet is becoming more <br> common due to rapid advance.</p>
+                    </div>
+
+                    <div>
+                              <h3>Mocha</h3>
+                              <div class="price">
+                                        <h4>$ 49</h4>
+                              </div>
+                              <p>usege of the internet is becoming more <br> common due to rapid advance.</p>
+                    </div>
+
+
+                    <div>
+                              <h3>Coffee Latte</h3>
+                              <div class="price">
+                                        <h4>$ 49</h4>
+                              </div>
+                              <p>usege of the internet is becoming more <br> common due to rapid advance.</p>
+                    </div>
+
+                    <div>
+                              <h3>Piccolo Latte</h3>
+                              <div class="price">
+                                        <h4>$ 49</h4>
+                              </div>
+                              <p>usege of the internet is becoming more <br> common due to rapid advance.</p>
+                    </div>
+
+                    <div>
+                              <h3>Resretto</h3>
+                              <div class="price">
+                                        <h4>$ 49</h4>
+                              </div>
+                              <p>usege of the internet is becoming more <br> common due to rapid advance.</p>
+                    </div>
+
+                    <div>
+                              <h3>Affogato</h3>
+                              <div class="price">
+                                        <h4>$ 49</h4>
+                              </div>
+                              <p>usege of the internet is becoming more <br> common due to rapid advance.</p>
+                    </div>
+
+          </div>
+
+          <div>
+
+
+
+          </div>
+
+</body>
+
+</html>
